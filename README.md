@@ -4,6 +4,8 @@ Lotus API client in Typescript generated from the the OpenRPC definitions.
 
 _Generated with [open-rpc/generator] from [lotus 1.7.0-dev openrpc definition](https://github.com/filecoin-project/lotus/tree/f4a2c8fa49dfc456090f5a5ea1b4ae62d33b4f85/build/openrpc)_
 
+⚠️ This is currently an exploration to see what is possible; not for consumption. ⚠️
+
 ## Provenance
 
 Get the openrc definitions from the lotus repo, ungzip them, and pass them to the [open-rpc/generator].
@@ -27,6 +29,13 @@ You can preview the generated OpenRPC docs for the Lotus API by passing the file
 
 The Lotus Filecoin implementation landed OpenRPC definintions for it's API in https://github.com/filecoin-project/lotus/pull/5843
 
+The rationale for OpenRPC (as opposed to the widely deployed OpenAPI) is given here 
+> This project [openrpc] is a fork of openapi. It was modified to accommodate JSON-RPC APIs.
+>
+> While you could get some things to work, using openapi on anything but path & http based api is fitting a round peg to a square hole.
+> – https://github.com/open-rpc/spec/issues/112
+
+Lotus uses a custom go json-rpc client https://github.com/filecoin-project/go-jsonrpc
 
 ## TODO
 
