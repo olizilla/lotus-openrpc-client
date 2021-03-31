@@ -37,6 +37,8 @@ The rationale for OpenRPC (as opposed to the widely deployed OpenAPI) is given h
 
 Lotus uses a custom go json-rpc client https://github.com/filecoin-project/go-jsonrpc
 
+The [open-rpc/generator] currently fails to build a working docs site https://github.com/open-rpc/generator/issues/621
+
 ## TODO
 
 - [ ] use the client to get some data in and out of a lotus node.
