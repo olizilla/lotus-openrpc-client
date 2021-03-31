@@ -35,6 +35,6 @@ The Lotus Filecoin implementation landed OpenRPC definintions for it's API in ht
 - [ ] Set up CI to publish updates to the client when the Lotus OpenRPC definitions change.
 
 
-OpenRPC: https://open-rpc.org/ "defines a standard, programming language-agnostic interface description for JSON-RPC 2.0 APIs."
-JSON-RPC: https://www.jsonrpc.org/specification "a stateless, light-weight remote procedure call (RPC) protocol."
-open-rpc/generator: https://github.com/open-rpc/generator "Multi-Component & Multi-Language Generators for OpenRPC"
+[OpenRPC]: https://open-rpc.org/ "defines a standard, programming language-agnostic interface description for JSON-RPC 2.0 APIs."
+[JSON-RPC]: https://www.jsonrpc.org/specification "a stateless, light-weight remote procedure call (RPC) protocol."
+[open-rpc/generator]: https://github.com/open-rpc/generator "Multi-Component & Multi-Language Generators for OpenRPC"
